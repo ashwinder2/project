@@ -7,7 +7,7 @@ from tkinter import *
 import os
 import tkinter.filedialog
 import tkinter.messagebox
-
+from tkcolorpicker import askcolor
 
 
 
@@ -220,7 +220,7 @@ menu_bar.add_cascade(label='View', menu=view_menu)
 #1.ABOUT
 def display_about(event=None):
     tkinter.messagebox.showinfo(
-        "About",NAME + "\n A python alternative to editor.")
+        "About",TITLE + "\n A python alternative to editor.")
 
 #2.HELP
 def display_help(event=None):

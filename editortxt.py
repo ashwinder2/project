@@ -333,7 +333,7 @@ content_text.bind('<Any-KeyPress>', on_content_changed)
 content_text.tag_configure('active_line', background='ivory2')
 content_text.focus_set()
 
-#CLOSE WINDOW.
+#CLOSE WINDOW
 
 root.protocol('WM_DELETE_WINDOW', exit_editor)
 root.mainloop()

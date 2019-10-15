@@ -38,7 +38,7 @@ def toggle_highlight(event=None):
         undo_highlight()
 
 
-#THEME FUNCTIONALITY.
+#THEME FUNCTIONALITY......
 def change_theme(event=None):
     selected_theme = theme_choice.get()
     fg_bg_colors = color_schemes.get(selected_theme)
